@@ -29,42 +29,47 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# 1. Create React App
+npx create-react-app react-admin
+cd react-admin
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 2. Install Material UI core and icons
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 3. Install MUI DataGrid (XGrid)
+npm install @mui/x-data-grid
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# 4. Install React Pro Sidebar (v1.1 specifically)
+npm install react-pro-sidebar@1.1
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# 5. Install FullCalendar for Calendar page
+npm install @fullcalendar/react @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/interaction
 
-## Learn More
+# 6. Install Nivo charts for Bar, Pie, Line, Geography
+npm install @nivo/core @nivo/bar @nivo/pie @nivo/line @nivo/geo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# 7. Install Formik and Yup for form validation
+npm install formik yup
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 8. Install React Router
+npm install react-router-dom
 
-### Code Splitting
+# 9. Optional: Utility classnames helper
+npm install clsx
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# 10. (Optional) Fix audit issues
+npm audit fix
 
-### Analyzing the Bundle Size
+# 11. Run the project
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# 12. Git setup
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main   # Or 'master' depending on your setup
+git remote add origin https://github.com/maazabdulbasith/React-AdminPanel.git
+git push -u origin main   # Or 'master' if that's your branch
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Lmk if i missed something.
